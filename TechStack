@@ -1,0 +1,24 @@
+1. Data generation and prcessing
+  Python - main programming language
+  Pandas+NumPy - Handle transaction data
+  Faker - Generate fake transaction data
+
+2. Transaction Categorisation(NLP)
+  Python Regex
+
+3. AI Insight Generation
+  Gemini API - generate human like financial advice.
+
+4. Backend
+  FastAPI - connect frontend with AI pipeline
+
+5. Frontend Dashboard
+  Streamlit - shows expense cards, charts, and AI recommendations
+
+6. Visualization
+  Matplotlib - graphs, charts etc
+
+7. Delivery Simulation
+  Email: SendGrid
+  or
+  WhatsApp Business API Sandbox
