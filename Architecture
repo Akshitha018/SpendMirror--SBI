@@ -1,0 +1,45 @@
+                User Transactions
+                       |
+                       |
+               Data Ingestion Layer
+            CSV / Bank API / Mock data
+            (transaction,income,city)
+                       |
+                       |
+              Data Processing Layer
+                 Python + Pandas
+              - Remove duplicates
+              - Handle missing values
+              - Clean transaction data
+                      |
+                      |
+            Transaction Categorisation
+              (Regex / NLP model)
+          food, travel, EMI, Shopping, Savings
+                      |
+                      |
+            Financial Analysis Layer
+                  Calculate:
+Total spending, category wise expenses, savings , EMI ratio
+                      |
+                      |
+            Peer benchmark Engine
+        (Compare with anonymous Users)
+                      |
+                      |
+               AI Insight Layer
+                    (LLM)
+                      |
+                      |
+              Recommendation Layer
+                  suggests:
+            reduce spending, start SIP etc
+                      |
+                      |
+              User Interface Layer
+              Dashboard(streamlit):
+        Charts, spending summary, AI insights
+                      |
+                      |
+              Delivery Layer
+             WhatsApp / Email
